@@ -4,8 +4,7 @@
 #include <QObject>
 #include <QVariant>
 #include <QtNetwork>
-#include <QtWebkit>
-#include <QtWebkit>
+#include <QtWebKit>
 #include <QWebPage>
 #include <QWebFrame>
 #include "promise.h"
@@ -18,9 +17,9 @@ public:
     explicit ExternalPageParser(const Config&, QObject *parent = 0);
 
     Promise* fetchFileInfo(const QStringList&);
-    
+
 signals:
-    
+
 public slots:
     void setConfig(const Config&);
 

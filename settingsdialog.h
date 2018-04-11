@@ -7,7 +7,7 @@
 #define SETTINGSDIALOG_H
 
 #include <QDialog>
-#include <QtWebkitWidgets>
+#include <QtWebKitWidgets>
 #include <QtWidgets>
 #include <QFileDialog>
 #include <QCheckBox>
@@ -21,7 +21,7 @@ class SettingsDialog;
 class SettingsDialog : public QDialog
 {
     Q_OBJECT
-    
+
 public:
     explicit SettingsDialog(QWidget *parent = 0);
     ~SettingsDialog();
@@ -35,7 +35,7 @@ protected:
     void closeEvent(QCloseEvent *);
     bool event(QEvent *e);
 
-    
+
 private slots:
     void on_pushButton_clicked();
     void onWebviewLoaded();
